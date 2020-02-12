@@ -1,6 +1,7 @@
 package com.coolweather.android;
 
 import android.content.Context;
+
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
@@ -19,8 +20,8 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
         // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+        Context appContext = InstrumentationRegistry.getInstrumentation ().getTargetContext ();
 
-        assertEquals("com.coolweather.android", appContext.getPackageName());
+        assertEquals ("com.coolweather.android", appContext.getPackageName ());
     }
 }
